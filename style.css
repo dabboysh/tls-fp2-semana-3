@@ -1,0 +1,97 @@
+.head {
+	background-color: #37383a;
+	margin-bottom: 10px;
+}
+
+
+.flexsearch--wrapper {
+	height: auto;
+	width: auto;
+	max-width: 20%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 95px 0 20px; 
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+.flexsearch {
+  padding: -10px 115px 0 30px; 
+  display: flex;
+}
+
+.flexsearch--input {
+box-sizing: content-box;
+height: 10px;
+padding: 24px 50px 0 28px;
+border-color: #888;
+border-radius: 20px; 
+border-style: solid;
+border-width: 3px;
+margin-top: 20px;
+color: #333;
+font-family: 'Helvetica', sans-serif;
+font-size: 13px;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+	
+.flexsearch--submit {
+  position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+  padding: 0;
+  border: none;
+	margin-top: 20px; 
+  margin-right: 5px; 
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+.menu__lista{
+	color:white;
+	list-style: none;
+
+
+} 
+
